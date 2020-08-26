@@ -1,0 +1,10 @@
+.header {
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 100px 0;
+    display: grid;
+    align-content: center;
+    color: $color-light;
+}

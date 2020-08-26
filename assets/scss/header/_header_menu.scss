@@ -1,0 +1,18 @@
+.header-menu {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    @media(max-width: $md) {
+        background-color: rgba(68, 89, 110, 0.25);
+    }
+    &__container {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        max-width: $ul;
+        margin: auto;
+        padding-left: $gap;
+        padding-right: $gap;
+    }
+}
