@@ -1,18 +1,22 @@
-    @import "../../normalize.scss.txt";
-    @import "variables";
-    @import "skin";
-    @import "mixins";
-    @import "mixins-media";
-    @import "extends";
-    @import "common";
-    @import "header/header";
-    @import "header/header_content";
-    @import "header/header_logo";
-    @import "header/header_menu";
-    @import "header/header_navbar";
-    @import "header/header_overlay";
-    @import "sections/section_skills";
-    @import "sections/section_about";
-    @import "sections/_section_form";
-    @import "sections/section_posts";
-    @import "footer";
+
+@import "../../libs/normalize-scss/sass/normalize/import-now";
+@import "skin";
+@import "variables";
+@import "mixins";
+@import "mixins-media";
+@import "extends";
+
+@import "common";
+@import "header/header";
+@import "header/header-overlay";
+@import "header/header-menu";
+@import "header/header-logo";
+@import "header/header-navbar";
+@import "header/header-content";
+
+@import "sections/section-skills";
+@import "sections/section-about";
+@import "sections/section-form";
+@import "sections/section-posts";
+
+@import "footer";
